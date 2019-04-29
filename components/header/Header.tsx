@@ -7,7 +7,8 @@ const styles = StyleSheet.create({
     fontFamily: 'Montserrat-Bold',
     textAlign: 'center',
     padding: 15,
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
+    color: '#ffffff'
   }
 });
 
