@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { CryptocurrencyElement } from '../cryptocurrency-element';
-import { AppRegistry, View } from 'react-native';
+import { AppRegistry, ScrollView } from 'react-native';
 
 export default class CryptocurrencyList extends Component {
   render() {
     return (
-      <View>
+      <ScrollView>
         <CryptocurrencyElement
           imgURL="http://icons.iconarchive.com/icons/froyoshark/enkel/256/Bitcoin-icon.png"
           convertFrom="BTC"
@@ -49,10 +49,10 @@ export default class CryptocurrencyList extends Component {
           label="Monero"
         />
         <CryptocurrencyElement
-          imgURL="http://icons.iconarchive.com/icons/cjdowner/cryptocurrency/256/Bitcoin-Cash-icon.png"
-          convertFrom="BCH"
+          imgURL="https://cdn1.iconfinder.com/data/icons/cryptocurrency-2/100/cryptocurrency_blockchain_coin_crypto_btc_-10-512.png"
+          convertFrom="EOS"
           convertTo="USD"
-          label="Bitcoin Cash"
+          label="EOS"
         />
         <CryptocurrencyElement
           imgURL="http://icons.iconarchive.com/icons/cjdowner/cryptocurrency/256/NEO-icon.png"
@@ -66,7 +66,7 @@ export default class CryptocurrencyList extends Component {
           convertTo="USD"
           label="Cardano"
         />
-      </View>
+      </ScrollView>
     );
   }
 }

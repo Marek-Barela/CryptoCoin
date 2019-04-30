@@ -20,7 +20,7 @@
                                                    moduleName:@"CryptoCoin"
                                             initialProperties:nil];
 
-  rootView.backgroundColor = [[UIColor alloc] initWithRed:0.40f green:0.40f blue:0.40f alpha:1];
+  rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.00f blue:1.00f alpha:1];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
