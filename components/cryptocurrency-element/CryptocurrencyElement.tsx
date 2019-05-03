@@ -56,12 +56,7 @@ export default class CryptocurrencyElement extends Component<Props> {
 		const { imgURL, label, convertFrom } = this.props;
 		const { image, container, innerContainer, textLabel } = styles;
 		let currentPrice;
-		if (currentPrice === undefined) {
-			currentPrice = "To many request to API"
-		}
-		else {
-			currentPrice = (cryptocurrency.rate).toFixed(2) + "$";
-		}
+		currentPrice = (cryptocurrency.rate).toFixed(2) + "$";
 		return (
 			<View style={container}>
 				<View style={[innerContainer, { justifyContent: "flex-start" }]}>
